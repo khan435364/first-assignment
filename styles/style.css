@@ -5,12 +5,7 @@ body{
 
 
 /* banner style */
-header{
-    max-width: 1280px;
-    max-height: 560px;
-    margin: 0 auto;
-    
-}
+
 
 .banner{
     display: flex;
@@ -18,6 +13,9 @@ header{
     justify-content: space-between;
     padding: 117px 59px;
     border-radius: 24px;
+    max-width: 1280px;
+    max-height: 560px;
+    margin: 0 auto;
 }
 .banner_content{
     max-width:622px ;
@@ -48,20 +46,90 @@ header{
     border: none;
     margin-top: 24px;
 }
+.banner_btn:hover{
+    background-color: red;
+}
 .banner_img{
     max-width: 474.03px;
     max-height: 400px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* banner end */
+/* main start */
+
+/* future */
+
+.main_section{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 80PX;
+    
+}
+.f_head{
+    color:#0E0E0E ;
+    font-size:40px ;
+    font-weight:bolds ;
+    padding-top: 10px ;
+
+}
+.f_pra{
+    color: #0E0E0E;
+    margin-top: 24px;
+    margin-bottom: 34px;
+}
+.future_card{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F1F1F3;
+    gap: 24px;
+}
+.card{
+    width: 410px;
+    height: 325px;
+    background-color: #5490F5;
+    padding: 32px;
+    border-radius: 16px;
+    
+}
+.card_img{
+    width: 64px;
+    height: 64px;
+    background-color:#FFFFFF #FFC239;
+}
+.card_title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 12px;
+}
+.card_description{
+    color: #0E0E0E;
+    font-size: 16;
+    margin-top: 12px;
+}
+.card_btn{
+    margin-top: 24px;
+    background-color: #09A15C;
+    padding: 11px 20px;
+    border-radius: 8px;
+    font-weight:600px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.card_btn:hover{
+color: red
+
+}
+.dr_younus{
+    margin-top: 32PX;
+    background-color: #FFFFFF;
+    padding: 48PX 40PX;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: 40px 20px;
+}
+
+/* main end */
